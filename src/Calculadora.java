@@ -61,7 +61,7 @@ public class Calculadora {
                         break;
 
                     case 6:
-                        operacao.setFatorial(valor1);
+                        operacao.setNumeroGenerico1(valor1);
                         System.out.println("Fatorial=" + operacao.getFatorial());
                         break;
 
