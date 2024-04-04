@@ -43,8 +43,8 @@ public class Calculadora {
                         break;
 
                     case 2:
-                        operacao.setMinuendo(valor1);
-                        operacao.setSubtraendo(valor2);
+                        operacao.setNumeroGenerico1(valor1);
+                        operacao.setNumeroGenerico2(valor2);
                         System.out.println("Subtração=" + operacao.subtracao());
                         break;
 
